@@ -6,23 +6,23 @@ class Tmpmail < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/qorvyx/tmpmail/releases/download/v0.3.2/tmpmail-0.3.2-aarch64-apple-darwin.tar.gz"
-      sha256 "fed4a7c3f44fb7f28eb67e1937a2f304f9b4c27e2f49ce2b8feb87f8331e93d5"
+      url "https://github.com/qorvyx/tmpmail/releases/download/v0.3.3/tmpmail-0.3.3-aarch64-apple-darwin.tar.gz"
+      sha256 "b401aa82756e74d999180be54812e405cbe7a05ddb564c9e932018835e5393ce"
     end
     on_intel do
-      url "https://github.com/qorvyx/tmpmail/releases/download/v0.3.2/tmpmail-0.3.2-x86_64-apple-darwin.tar.gz"
-      sha256 "af62e6677305f0393a92697fdf05e6c7d76bd70875644140865243093a32d526"
+      url "https://github.com/qorvyx/tmpmail/releases/download/v0.3.3/tmpmail-0.3.3-x86_64-apple-darwin.tar.gz"
+      sha256 "7b10ab9c8157a506387f55eabc66b2f39ab4bd0f68d6c373d6dcd5e01724030b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/qorvyx/tmpmail/releases/download/v0.3.2/tmpmail-0.3.2-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "dc881ccb4e35a7219c32d3420fcc1c5fcd749cdf11c373f82ffb9f3650c15890"
+      url "https://github.com/qorvyx/tmpmail/releases/download/v0.3.3/tmpmail-0.3.3-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "ff8d0c30ab5b5e3b17eb5662119500b0afd9bacd5e73d0d2910e7e2c81bef0bc"
     end
     on_intel do
-      url "https://github.com/qorvyx/tmpmail/releases/download/v0.3.2/tmpmail-0.3.2-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "2c7df3d7dab8578430d61ba58291138bc73c9fb6bb1b6c2c7cbbfe3201f3ceb4"
+      url "https://github.com/qorvyx/tmpmail/releases/download/v0.3.3/tmpmail-0.3.3-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "5ef4ffef5cfc430c0277be0816773d59dbb2c1993e2391e3c987234e0d683545"
     end
   end
 
